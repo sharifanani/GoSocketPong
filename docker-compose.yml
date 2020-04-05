@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  server:
+    build: ./src/server
+    command: /go/bin/server
+  client:
+    build: ./src/client
+    command: /go/bin/client server 8080
