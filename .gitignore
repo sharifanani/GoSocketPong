@@ -1,3 +1,6 @@
+# Binaries being compiled
+src/client/client
+src/server/server
 # Binaries for programs and plugins
 *.exe
 *.exe~
